@@ -1,0 +1,26 @@
+# Rust
+/target/
+
+# Node / Vite
+node_modules/
+/dist/
+*.local
+
+# Tauri generated files
+/src-tauri/gen/
+
+# Secrets and runtime data: never commit these.
+# The app stores them under %APPDATA%\NanoleafSync, outside the repo.
+devices.json
+settings.json
+NanoleafSync/
+.env
+.env.*
+
+# Logs and OS / editor files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
